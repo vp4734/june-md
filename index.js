@@ -1,4 +1,4 @@
-//➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤➤//
+//➤➤➤➤➤➤➤MD➤JUNE➤MD➤➤➤➤➤➤//
 
 
 require('./settings')
@@ -236,17 +236,17 @@ async function startXeonBotInc() {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             console.log(chalk.magenta(` `))
-            console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
+            console.log(chalk.yellow(`♻️Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
             
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
                 text: 
                 `
 ┏❐═⭔ *CONNECTED* ⭔═❐
-┃⭔ BOT: JUNE MD
-┃⭔ Time: ${new Date().toLocaleString()}
-┃⭔ Status:Online
-┃⭔ OWNER:${owner}
+┃⭔ *Bot:* JUNE MD
+┃⭔ *Time:* ${new Date().toLocaleString()}
+┃⭔ *Status:* Online
+┃⭔ *User:* ${botNumber}
 ┗❐═⭔════════⭔═❐ `,
                 contextInfo: {
                     forwardingScore: 1,
@@ -262,10 +262,10 @@ async function startXeonBotInc() {
             await delay(1999)
             console.log(chalk.yellow(`\n\n    ${chalk.bold.blue(`[ ${global.botname || 'KNIGHT BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: SUPRMELORD`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR UNIQUE HACKER`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: SUPREMELORD`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
             console.log(chalk.cyan(`< ================================================== >`))
         }
