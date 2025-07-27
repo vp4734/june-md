@@ -247,7 +247,7 @@ async function startXeonBotInc() {
 ┃⭔ *Time:* ${new Date().toLocaleString()}
 ┃⭔ *Status:* Online
 ┃⭔ *User:* ${botNumber}
-┗❐═⭔════════⭔═❐ `,
+┗❐═⭔════════⭔═❐`,
                 contextInfo: {
                     forwardingScore: 1,
                     isForwarded: false,
