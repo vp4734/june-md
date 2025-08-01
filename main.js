@@ -509,9 +509,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.ping':
                 await pingCommand(sock, chatId, message);
                 break;
-            case userMessage === '.uptime':
-                await aliveCommand(sock, chatId, message);
-                break;
+            //case userMessage === '.uptime':
+           //     await aliveCommand(sock, chatId, message);
+            //    break;
             case userMessage.startsWith('.blur'):
                 const quotedMessage = message.message?.extendedTextMessage?.contextInfo?.quotedMessage;
                 await blurCommand(sock, chatId, message, quotedMessage);
