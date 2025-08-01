@@ -331,6 +331,24 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
                 break;
         ////////////////////////////////////////
 
+            /*
+            GETPP
+            */
+            
+            case 'getpp': { 
+              try { 
+                ha = m.quoted.sender; 
+                qd = await supreme.getName(ha); 
+                pp2 = await supreme.profilePictureUrl(ha,'image'); 
+              } catch {  
+                pp2 = 'https://storage.giftedtech.web.id/file/CAf2y.jpg'; 
+              } 
+              if (!m.quoted) throw `Tag a user!`; 
+              bar = `Profile Picture of ${qd}`; 
+              client.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
+            } 
+            break;
+		
 case 'play':{
 const axios = require('axios');
 const yts = require("yt-search");
