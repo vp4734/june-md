@@ -13,7 +13,7 @@ const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn
 
 // Command imports
 const tagAllCommand = require('./commands/tagall');
-const getppCommand =require('./commands/getpp');
+//const getppCommand =require('./commands/getpp');
 const helpCommand = require('./commands/help');
 const banCommand = require('./commands/ban');
 const { promoteCommand } = require('./commands/promote');
