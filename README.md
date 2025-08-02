@@ -85,7 +85,17 @@ _For further setup & guidance, click the button below🩹_
 <a href="https://daki.cc" target="_blank">
   <img src="https://img.shields.io/badge/Daki_CC PANEL-34495E?style=for-the-badge&logo=server&logoColor=white" alt="Daki CC"/>
 </a>
-  
+
+> **Deploy on BOTWA_PANEL**
+
+<div align="left">
+  <a href="https://youtu.be/aZMUw_YkcwI?si=xxHilfRhsPUM3-fW">
+    <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
+<br>
+
+ <a href="https://client.botwa.net/login" target="_blank">
+  <img src="https://img.shields.io/badge/BotWA_HOST_Panel-27AE60?style=for-the-badge&logo=server&logoColor=white" alt="BotWA Panel"/>
+</a> 
 </div>
 
 >  **Deploy On katabump panel**
