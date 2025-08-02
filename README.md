@@ -109,7 +109,7 @@ _For further setup & guidance, click the button below🩹_
 </div>
 
 >  **JOIN US**
-<div align="left">
+<div align="center">
   <a href="https://t.me/cypherx_support">
     <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
   </a>
