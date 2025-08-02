@@ -83,19 +83,18 @@ _For further setup & guidance, click the button below🩹_
 <br>
 
 <a href="https://daki.cc" target="_blank">
-  <img src="https://img.shields.io/badge/Daki_CC PANEL-34495E?style=for-the-badge&logo=server&logoColor=white" alt="Daki CC"/>
+  <img src="https://img.shields.io/badge/Daki_CC PANEL-34495E?style=for-the-badge&logo=server&logoColor=darkorange" alt="Daki CC"/>
 </a>
 
-> **Deploy on BOTWA_PANEL**
+> **Deploy on Optilink**
 
 <div align="left">
   <a href="ytlink">
     <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
 <br>
-
- <a href="https://client.botwa.net/login" target="_blank">
-  <img src="https://img.shields.io/badge/BotWA_HOST_Panel-27AE60?style=for-the-badge&logo=server&logoColor=white" alt="BotWA Panel"/>
-</a> 
+<a href="https://optiklink.com/" target="_blank">
+  <img src="https://img.shields.io/badge/Optik_Link_panel-2ECC71?style=for-the-badge&logo=server&logoColor=darkorange" alt="Optik Link"/>
+</a>
 </div>
 
 >  **Deploy On katabump panel**
