@@ -644,10 +644,10 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.clearsession' || userMessage === '.clearsesi':
                 await clearSessionCommand(sock, chatId, message);
                 break;
-            case userMessage.startsWith('.autostatus'):
-                const autoStatusArgs = userMessage.split(' ').slice(1);
-                await autoStatusCommand(sock, chatId, message, autoStatusArgs);
-                break;
+        //    case userMessage.startsWith('.autostatus'):
+             //   const autoStatusArgs = userMessage.split(' ').slice(1);
+              //  await autoStatusCommand(sock, chatId, message, autoStatusArgs);
+              //  break;
             case userMessage.startsWith('.simp'):
                 await simpCommand(sock, chatId, message);
                 break;
@@ -719,9 +719,9 @@ async function handleMessages(sock, messageUpdate, printLog) {
             case userMessage === '.setpp':
                 await setProfilePicture(sock, chatId, message);
                 break;
-               case userMessage === '.getpp':
-                await getppCommand(sock, chatId, message);
-                break;            
+               //case userMessage === '.getpp':
+               // await getppCommand(sock, chatId, message);
+               // break;            
                 
             case userMessage.startsWith('.instagram') || userMessage.startsWith('.insta') || userMessage.startsWith('.ig'):
                 await instagramCommand(sock, chatId, message);
