@@ -69,7 +69,7 @@ _For further setup & guidance, click the button below🩹_
 > **Deploy on solarHosting panel**
 
 <div align="left">
-  <a href="https://youtu.be/aZMUw_YkcwI?si=xxHilfRhsPUM3-fW">
+  <a href="ytlink">
     <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
 <br>
 <a href="https://account.solarhosting.cc/" target="_blank">
@@ -78,7 +78,7 @@ _For further setup & guidance, click the button below🩹_
 
 > **Deploy on Dakicc panel**
 <div align="left">
-  <a href="https://youtu.be/aZMUw_YkcwI?si=xxHilfRhsPUM3-fW">
+  <a href="ytlink">
     <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
 <br>
 
@@ -89,7 +89,7 @@ _For further setup & guidance, click the button below🩹_
 > **Deploy on BOTWA_PANEL**
 
 <div align="left">
-  <a href="https://youtu.be/aZMUw_YkcwI?si=xxHilfRhsPUM3-fW">
+  <a href="ytlink">
     <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
 <br>
 
