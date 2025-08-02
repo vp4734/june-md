@@ -90,7 +90,6 @@ async function helpCommand(sock, chatId, message) {
 
 > SETTINGS CMD
 ┏❐
-┃➤ .mode
 ┃➤ .public
 ┃➤ .private
 ┃➤ .autostatus
