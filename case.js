@@ -349,7 +349,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
             } 
             break;
 		
-case 'play':{
+/*case 'play':{
 const axios = require('axios');
 const yts = require("yt-search");
 const fs = require("fs");
@@ -422,7 +422,7 @@ const path = require("path");
     m.reply("Download failed\n" + error.message);
   }
 }
-	  break;
+	  break;*/
 ///////////////////////////////////////    
         
         ///////////////////////////////////////////       
