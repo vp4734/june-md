@@ -4,7 +4,7 @@ const path = require('path');
 const channelInfo = {
     contextInfo: {
         forwardingScore: 1,
-        isForwarded: true,
+        isForwarded: false,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '@newsletter',
             newsletterName: '𝐉ᴜɴᴇ 𝐌ᴅ',
@@ -51,7 +51,7 @@ async function autoStatusCommand(sock, chatId, msg, args) {
             config.enabled = true;
             fs.writeFileSync(configPath, JSON.stringify(config));
             await sock.sendMessage(chatId, { 
-                text: '✅ Auto status view has been enabled!\nBot will now automatically view all contact statuses.',
+                text: '✅ Auto status view & like has been enabled!\nBot will now automatically view & like all contact statuses.',
                 ...channelInfo
             });
         } else if (command === 'off') {
