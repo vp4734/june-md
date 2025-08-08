@@ -335,7 +335,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
             GETPP
             */
             
-            case 'getpp': { 
+     /*       case 'getpp': { 
               try { 
                 ha = m.quoted.sender; 
                 qd = await supreme.getName(ha); 
@@ -347,7 +347,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
               bar = `🔸Profile Picture of ${qd}\n\n*BY 𝙹𝚄𝙽𝙴 𝙼𝙳 𝙱𝙾𝚃*`; 
               supreme.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
             } 
-            break;
+            break;*/
 		
 case 'play':{
 const axios = require('axios');
