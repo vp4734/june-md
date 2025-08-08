@@ -92,17 +92,17 @@ console.log('\x1b[30m--------------------\x1b[0m');
 console.log(chalk.bgHex("#e74c3c").bold(`➤ New Messages`));
 console.log(
 chalk.bgHex("#00FF00").black(
-` ╭─ > Time: ${new Date().toLocaleString()} \n` +
-` ├─ > Message: ${m.body || m.mtype} \n` +
-` ├─ > Body: ${m.pushname} \n` +
-` ╰─ > JID: ${senderNumber}`
+` ⭔  Time: ${new Date().toLocaleString()} \n` +
+` ⭔  Message: ${m.body || m.mtype} \n` +
+` ⭔  Body: ${m.pushname} \n` +
+` ⭔  JID: ${senderNumber}`
 )
 );
 if (m.isGroup) {
 console.log(
 chalk.bgHex("#00FF00").black(
-` ╭─ > Grup: ${groupName} \n` +
-` ╰─ > GroupJid: ${m.chat}`
+` ▢  Grup: ${groupName} \n` +
+` ▢  GroupJid: ${m.chat}`
 )
 );
 }
