@@ -86,7 +86,7 @@ _For further setup & guidance, click the button below🩹_
   <img src="https://img.shields.io/badge/Daki_CC PANEL-34495E?style=for-the-badge&logo=server&logoColor=darkorange" alt="Daki CC"/>
 </a>
 
-> **Deploy on Optilink**
+> **Deploy on Optiklink**
 
 <div align="left">
   <a href="ytlink">
