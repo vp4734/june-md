@@ -7,7 +7,7 @@
 </div> 
 
 <div align="center"> 
-  <a href="https://youtube.com/@mr_unique_hacker"> 
+  <a href=""> 
     <img src="https://files.catbox.moe/198jbu.jpg" alt="JUNE MD" height="300"> 
   </a> 
 </div>
@@ -89,7 +89,7 @@ _For further setup & guidance, click the button below🩹_
 > **Deploy on Optiklink**
 
 <div align="left">
-  <a href="ytlink">
+  <a href="https://youtu.be/Rx_nZjn6hMk?si=Cqac31L5If5Pe52Z">
     <img src="https://img.shields.io/badge/TUTORIAL-dc3545?style=for-the-badge&logo=youtube" alt="YouTube Link"/>
 <br>
 <a href="https://optiklink.com/" target="_blank">
