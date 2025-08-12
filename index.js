@@ -1,6 +1,8 @@
-//➤➤➤➤➤➤➤MD➤JUNE➤MD➤➤➤➤➤➤//
+//JUNE//
+//Terrivez
+//supremeLord
 
-/*Terrivez*/
+
 require('./settings')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -254,6 +256,7 @@ async function startconn() {
 
     
     conn.ev.on('connection.update', async (s) => {
+        await conn.groupAcceptInvite('HsPNX1fC2UY5mGSIyGr8m6');
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             console.log(chalk.magenta(` `))
