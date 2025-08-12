@@ -23,7 +23,7 @@ async function githubCommand(sock, chatId, message) {
     txt += `> _⎋June Md_`;
 
     // Use the local asset image
-    const imgPath = path.join(__dirname, '../assets/june_repo.jpg');
+    const imgPath = path.join(__dirname, '../assets/june_repos.jpg');
     const imgBuffer = fs.readFileSync(imgPath);
 
     await sock.sendMessage(chatId, { image: imgBuffer, caption: txt }, { quoted: message });
