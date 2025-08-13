@@ -19,7 +19,7 @@ async function lyricsCommand(sock, chatId, songTitle) {
         
         const json = await res.json();
         
-        if (!json.lyrics) {
+        if (!json.result.lyrics) {
             await sock.sendMessage(chatId, { 
                 text: `❌ Sorry, I couldn't find any lyrics for "${songTitle}".`
             });
