@@ -28,7 +28,7 @@ async function lyricsCommand(sock, chatId, songTitle) {
         
         // Sending the formatted result to the user
         await sock.sendMessage(chatId, {
-            text: `🎵 *Song Lyrics* 🎶\n\n▢ *Title:* ${json.title || songTitle}\n▢ *Artist:* ${json.author || 'Unknown'}\n\n📜 *Lyrics:*\n${json.lyrics}\n\nHope you enjoy the music! 🎧 🎶`
+            text: `🎵 *Song Lyrics* 🎶\n\n▢ *Title:* ${json.result.title || songTitle}\n▢ *Artist:* ${json.result.artist || 'Unknown'}\n\n📜 *Lyrics:*\n${json.result.lyrics}\n\nHope you enjoy the music! 🎧 🎶`
         });
     } catch (error) {
         console.error('Error in lyrics command:', error);
