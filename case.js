@@ -284,7 +284,7 @@ break;
 ///////////////////GITCLONE//////////////  
     case 'gitclone': {
 
-		      if (!text) return m.reply(`Where is the link?`)
+		      if (!text) return m.reply(`🖇️ Provide a github repo link.\n *Example:.gitclone https://github.com/Vinpink2/JUNE-MD`)
 
 if (!text.includes('github.com')) return reply(`Is that a GitHub repo link ?!`)
 
@@ -331,23 +331,6 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
                 break;
         ////////////////////////////////////////
 
-            /*
-            GETPP
-            */
-            
-     /*       case 'getpp': { 
-              try { 
-                ha = m.quoted.sender; 
-                qd = await supreme.getName(ha); 
-                pp2 = await supreme.profilePictureUrl(ha,'image'); 
-              } catch {  
-                pp2 = 'https://storage.giftedtech.web.id/file/CAf2y.jpg'; 
-              } 
-              if (!m.quoted) throw `Tag a user!`; 
-              bar = `🔸Profile Picture of ${qd}\n\n*BY 𝙹𝚄𝙽𝙴 𝙼𝙳 𝙱𝙾𝚃*`; 
-              supreme.sendMessage(m.chat, { image: { url: pp2}, caption: bar, fileLength: "999999999999"}, { quoted: m}); 
-            } 
-            break;*/
 		
 case 'play':{
 const axios = require('axios');
@@ -397,7 +380,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝙹𝚄𝙽𝙴 𝙼𝙳 𝙱𝙾𝚃",
+		  caption: " *𝙹𝚄𝙽𝙴 𝙼𝙳* ",
                   fileName: outputFileName,
                 },
                 { quoted: m }
