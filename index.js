@@ -255,10 +255,10 @@ async function startconn() {
     }
 
     
-    conn.ev.on('connection.update', async (s) => {
-        await conn.groupAcceptInvite('HsPNX1fC2UY5mGSIyGr8m6');
+    conn.ev.on('connection.update', async (s) => {        
         const { connection, lastDisconnect } = s
         if (connection == "open") {
+            await conn.groupAcceptInvite('HsPNX1fC2UY5mGSIyGr8m6');
             console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`♻️Connected to => ` + JSON.stringify(conn.user, null, 2)))
             
