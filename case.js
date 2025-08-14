@@ -284,7 +284,7 @@ break;
 ///////////////////GITCLONE//////////////  
     case 'gitclone': {
 
-		      if (!text) return m.reply(`🖇️ Provide a github repo link.\n *Example:.gitclone https://github.com/Vinpink2/JUNE-MD`)
+		      if (!text) return m.reply(`🖇️ Provide a github repo link.\n\n *Example:* .gitclone https://github.com/Vinpink2/JUNE-MD`)
 
 if (!text.includes('github.com')) return reply(`Is that a GitHub repo link ?!`)
 
