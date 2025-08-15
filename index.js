@@ -23,6 +23,7 @@ const store = createToxxicStore('./store', {
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 
 //------------------------------------------------------
+const settings = require('./setting/settings')
 let phoneNumber = "254792021944"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
