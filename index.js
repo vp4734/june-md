@@ -108,7 +108,7 @@ async function downloadSessionData() {
         return console.log(chalk.blue(`Session id not found at SESSION_ID!\nCreds.json not found at session folder!\n\nWait to enter your number`));
       }
 
-      const base64Data = global.SESSION_ID.split("JUNE:~")[1];
+      const base64Data = global.SESSION_ID.split("trashcore~")[1];
       
       const sessionData = Buffer.from(base64Data, 'base64');
       
