@@ -20,9 +20,9 @@
 
 _Click the button below to fork  June Md repository to your GitHub account_
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Tap+fork+button+Bellow+To+Fork;June+MD+REPO+On+Github)](https://git.io/typing-svg)
-> <div align="left">
+<div align="left">
   <a href="https://github.com/vinpink2/June-md/fork">
-    <img src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue" alt="FORK REPO"/>
+    <img src="https://img.shields.io/badge/Fork%20Bot%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue" alt="FORK REPO"/>
   </a>
 </div>
 
@@ -30,15 +30,17 @@ _Click the button below to fork  June Md repository to your GitHub account_
 
 _Deploy the bot and easily connect it to your WhatsApp account by pair code. Bellow🥈_
 
+> *get Creds.json*
 <div align="left">
   <a href="https://sessions-june2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Pair%20Cofe%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="PAIR CODE"/>
+    <img src="https://img.shields.io/badge/Pair%20Code%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="PAIR CODE"/>
   </a>
 </div>
 
+> *get session_id*
 <div align="left">
   <a href="https://sessions-june2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Pair%20Cose%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
+    <img src="https://img.shields.io/badge/Pair%20Code%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
 
