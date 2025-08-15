@@ -39,7 +39,7 @@ _Deploy the bot and easily connect it to your WhatsApp account by pair code. Bel
 
 > *get session_id*
 <div align="left">
-  <a href="https://june-1-6b3d19601c66.herokuapp.com/" target="_blank">
+  <a href="https://june-pair-8fab255f7b59.herokuapp.com/" target="_blank">
     <img src="https://img.shields.io/badge/Pair%20Code%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
