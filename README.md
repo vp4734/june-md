@@ -32,13 +32,13 @@ _Deploy the bot and easily connect it to your WhatsApp account by pair code. Bel
 
 <div align="left">
   <a href="https://sessions-june2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Server%20One-green?style=for-the-badge" alt="PAIR CODE"/>
+    <img src="https://img.shields.io/badge/Pair%20Cofe%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="PAIR CODE"/>
   </a>
 </div>
 
 <div align="left">
   <a href="https://sessions-june2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-Server%20Two-darkgreen?style=for-the-badge" alt="PAIR CODE"/>
+    <img src="https://img.shields.io/badge/Pair%20Cose%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
 
