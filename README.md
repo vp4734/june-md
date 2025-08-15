@@ -57,6 +57,15 @@ _Download Bot Zip file From the button Bellow_
 _For further setup & guidance, click the button below🩹_
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Watch+The+Deployment+Tutorials;Bellow+For+FreePanel+Deployments)](https://git.io/typing-svg)
 
+> **Deploy Now on heroku**
+<h4 align="center">1. Heroku</h4>
+<p style="text-align: center; font-size: 1.2em;">
+
+
+<p align="center">
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+
+
 > **Deploy Now on Below Panel**
 <div align="left">
   <a href="https://youtu.be/aZMUw_YkcwI?si=xxHilfRhsPUM3-fW">
