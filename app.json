@@ -1,13 +1,13 @@
 {
-  "name": "Dave-XMd",
-  "description": "A WhatsApp bot based on Baileysjs library (Ts+Js) with Multi Device support",
+  "name": "June md",
+  "description": "A WhatsApp bot based on Baileysjs library with Multi Device support",
   "repository": "https://github.com/anonphoenix007/CH13",
   "logo": "https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": {
     "OWNER_NAME": {
       "description": "Enter your owner name here",
-      "value": "Gifted Dave",
+      "value": "Supreme",
       "required": false
     },
     "BOT_PREFIX": {
@@ -27,7 +27,7 @@
     },
     "SESSION_ID": {
       "description": "Put your session ID here",
-      "value": "DAVE-XMD-WHATSAPP-BOT;;;=>",
+      "value": "JUNE:~",
       "required": true
     }
   },
