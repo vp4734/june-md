@@ -1,3 +1,7 @@
+//tennor-modz
+//supreme
+
+
 require('./setting/settings')
 const makeWASocket = require("@whiskeysockets/baileys").default
 const { color } = require('./lib/color')
@@ -178,7 +182,7 @@ await delay(1999)
                     }
                 }
             });
-console.log(color('>June Md is Connected< [ ! ]','red'))
+console.log(color('June Md is Connected [ ✅ ]','blue'))
 		}
 	
 } catch (err) {
