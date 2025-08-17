@@ -60,6 +60,7 @@ _For further setup & guidance, click the button below🩹_
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Watch+The+Deployment+Tutorials;Bellow+For+FreePanel+Deployments)](https://git.io/typing-svg)
 
 > **Deploy Now on heroku**
+> _under tests & verification_
 <h4 align="left">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
