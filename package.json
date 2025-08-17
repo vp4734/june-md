@@ -1,7 +1,7 @@
 {
   "name": "june-md",
-  "version": "1.0.0",
-  "description": "x",
+  "version": "1.2.4",
+  "description": "WhatsApp simple bot",
   "main": "main.js",
   "scripts": {
    "code": "node main.js",
