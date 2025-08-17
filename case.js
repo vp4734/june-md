@@ -1,3 +1,8 @@
+/*tenor-modz*/
+/*supreme*/
+/*2025*/
+
+
 
 require('./setting/settings');
 const fs = require('fs');
