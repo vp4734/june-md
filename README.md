@@ -63,8 +63,7 @@ _For further setup & guidance, click the button below🩹_
 
 <h4 align="left">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
-
-
+  
 <p align="left">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
