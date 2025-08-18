@@ -61,7 +61,6 @@ _For further setup & guidance, click the button below🩹_
 
 > **Deploy Now on heroku**
 
-> _under tests & verification_ ⚠️⚠️
 <h4 align="left">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
 
