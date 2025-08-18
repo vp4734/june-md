@@ -408,8 +408,8 @@ const path = require("path");
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━//
 case "gcjid":
 case "idgc": {
-if (!isBot) return m.reply(msg.owner)
-if (!isGroup) return m.reply(msg.group)
+if (!isBot) return m.reply(mess.owner)
+if (!isGroup) return m.reply(mses.group)
 m.reply(`${m.chat}`)
 }
 break;
@@ -420,6 +420,7 @@ break;
 case 'profilegc':
 case 'gcpp':      
 case  'getppgc':
+if (!isBot && !isAdmins) return reply(` The command is for group only`)
 if (!isGroup) return 
 reply(mess.wait)
 try {
