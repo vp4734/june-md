@@ -2,7 +2,7 @@
   "name": "June md",
   "description": "A WhatsApp bot based on Baileysjs library with Multi Device support",
   "repository": "https://github.com/anonphoenix007/CH13",
-  "logo": "https://telegra.ph/file/7aa528767ed96ddc17bc2.jpg",
+  "logo": "https://files.catbox.moe/7ibt7j.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": {
     "OWNER_NAME": {
