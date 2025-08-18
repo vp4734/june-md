@@ -535,7 +535,7 @@ process.exit()
 break;
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━//
         
- case "toroundvideo":      
+ case "toroundvid":      
  case "toptv": {
 if (/video/.test(qmsg.mimetype)) {
 if ((qmsg).seconds > 30) return reply("maximum video duration 30 seconds!")
