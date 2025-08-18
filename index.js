@@ -190,7 +190,7 @@ await delay(1999)
                     }
                 }
             });
-console.log(color('June Md is Connected[ ✅ ]','blue'))
+console.log(color('Succefully Connected ✅','blue'))
 		}
 	
 } catch (err) {
