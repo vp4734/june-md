@@ -157,7 +157,7 @@ if (global.autorecordtype) {
   supreme.sendPresenceUpdate(selectedRecordType, from);
 }
 
-if (autobio) {
+if (global.autobio) {
   supreme.updateProfileStatus(`𝙹𝚄𝙽𝙴 𝙼𝙳 𝙱𝙾𝚃 is Online✅ | |Runtime ${runtime(process.uptime())}`)
     .catch(err => console.error("Error updating status:", err));
 }
