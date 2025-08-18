@@ -54,7 +54,7 @@ async function downloadSessionData() {
         return console.log(color(`Session id not found at SESSION_ID!\nCreds.json not found at session folder!\n\nWait to enter your number`, 'red'));
       }
 
-      const base64Data = global.SESSION_ID.split("JUNE:~")[1];
+      const base64Data = global.SESSION_ID.split("JUNE-MD:~")[1];
       
       const sessionData = Buffer.from(base64Data, 'base64');
       
@@ -220,7 +220,7 @@ conn.ev.on("messages.upsert",  () => { })
                     : mek.message;
 
             if (mek.key && mek.key.remoteJid === 'status@broadcast') {
-                let emoji = [ "💙","❤️", "🌚","😍", "🙏" ];
+                let emoji = [ "💙","🖤" ];
                 let sigma = emoji[Math.floor(Math.random() * emoji.length)];
                 await conn.readMessages([mek.key]);
                 conn.sendMessage(
