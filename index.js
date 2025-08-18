@@ -178,7 +178,7 @@ await delay(1999)
 ┃⭔ *Bot:* JUNE MD
 ┃⭔ *Time:* ${new Date().toLocaleString()}
 ┃⭔ *Status:* Online
-┃⭔ *User:* ${owner}
+┃⭔ *User:* ${botNumber}
 ┗❐═⭔════════⭔═❐`,
                 contextInfo: {
                     forwardingScore: 1,
