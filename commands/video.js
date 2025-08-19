@@ -1,3 +1,6 @@
+/*supreme*/
+
+
 const axios = require('axios');
 const yts = require('yt-search');
 const fs = require('fs');
@@ -92,7 +95,7 @@ async function videoCommand(sock, chatId, message) {
                 video: { url: videoDownloadUrl },
                 mimetype: 'video/mp4',
                 fileName: filename,
-                caption: `*${title}*\n\n> *_Downloaded by Knight Bot MD_*`
+                caption: `*${title}*\n\n*Downloaded ✅*`
             }, { quoted: message });
             return;
         } catch (directSendErr) {
