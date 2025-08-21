@@ -115,20 +115,6 @@ console.log();
 } 
 
 
-const qkontak = {
-key: {
-participant: `0@s.whatsapp.net`,
-...(botNumber ? {
-remoteJid: `status@broadcast`
-} : {})
-},
-message: {
-'contactMessage': {
-'displayName': `${global.namaown}`,
-'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;ttname,;;;\nFN:ttname\nitem1.TEL;waid=254756182478:+254756182478\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
-sendEphemeral: true
-}}
-}
 
 const reply = (teks) => {
 supreme.sendMessage(from, { text : teks }, { quoted : m })
@@ -137,7 +123,7 @@ supreme.sendMessage(from, { text : teks }, { quoted : m })
 const reaction = async (jidss, emoji) => {
 supreme.sendMessage(jidss, { react: { text: emoji, key: m.key }})}
 
-if (autoread) {
+if (global.autoread) {
   supreme.readMessages([m.key]);
 }
 
