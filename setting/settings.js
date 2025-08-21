@@ -41,15 +41,15 @@ global.channel = "hatsapp.com/channel/0029Vb2W2vAADTOKmdoDxB0m"
 
 //~~~~~~~~~~~ Settings Message ~~~~~~~~~~~//
 global.mess = {
-  developer: " `[ Developer Only!! ]` \n This feature is for developers only!!",
-  owner: " `[ Owner Only!! ]` \n This feature is for owners only!!",
-  group: " `[ Group Only!! ]` \n This feature is for group chats only!!",
-  private: " `[ Private Only!! ]` \n This feature is for private chats only!!",
-  admin: " `[ Admin Only!! ]` \n This feature is for admins only!!",
-  botadmin: " `[ Bot Admin Only!! ]` \n This feature is for bot admins only!!",
-  wait: " `[ Wait!! ]` \n Please wait, loading...",
-  error: " `[ Error!! ]` \n An error occurred!!",
-  done: " `[ Done!! ]` \n Process completed!!"
+  developer: "This feature is for developers only!!",
+  owner: " feature is for owners only!",
+  group: "This feature is for group chats only!!",
+  private: "This feature is for private chats only!",
+  admin: "This feature is for admins only!!",
+  botadmin: "This feature is for bot admins only!!",
+  wait: "Please wait, loading...",
+  error: "An error occurred!",
+  done: "Process completed!"
 }
 
 let file = require.resolve(__filename)
