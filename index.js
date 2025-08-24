@@ -1,3 +1,7 @@
+//tenor-modz 
+//suprem
+//2025
+
 require('./setting/settings')
 const makeWASocket = require("@whiskeysockets/baileys").default
 const { color } = require('./lib/color')
