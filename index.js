@@ -28,7 +28,7 @@ global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse()
 
 //------------------------------------------------------
 const settings = require('./settings')
-let phoneNumber = "254792021944"
+let phoneNumber = "254798570132"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
 
@@ -54,7 +54,7 @@ async function downloadSessionData() {
         return console.log(color(`Session id not found at SESSION_ID!\nCreds.json not found at session folder!\n\nWait to enter your number`, 'red'));
       }
 
-      const base64Data = global.SESSION_ID.split("JUNE:~")[1];
+      const base64Data = global.SESSION_ID.split("JUNE-MD:~")[1];
       
       const sessionData = Buffer.from(base64Data, 'base64');
       
