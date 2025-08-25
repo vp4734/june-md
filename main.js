@@ -89,9 +89,10 @@ const aiCommand = require('./commands/ai');
 const { handleTranslateCommand } = require('./commands/translate');
 const { handleSsCommand } = require('./commands/ss');
 const { addCommandReaction, handleAreactCommand } = require('./lib/reactions');
-//const { goodnightCommand } = require('./commands/goodnight');
 const { shayariCommand } = require('./commands/shayari');
 const { rosedayCommand } = require('./commands/roseday');
+const { miscCommand, handleHeart } = require('./commands/supreme');
+const { animeCommand } = require('./commands/lord');
 const imagineCommand = require('./commands/imagine');
 const videoCommand = require('./commands/video');
 
