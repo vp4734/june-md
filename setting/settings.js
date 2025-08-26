@@ -29,7 +29,7 @@ global.autobio = false
 global.anti92 = false
 global.owneroff = false
 global.statusview = process.env.AUTO_STATUS || true
-global.autoreact = process.env.AUTO_REACT || true
+global.autoreact = process.env.AUTO_REACT || 'false'
 //~~~~~~~~~~~ Settings Thumbnail ~~~~~~~~~~~//
 global.thumbbot = "https://url.bwmxmd.online/Adams.poh4tuhs.jpg"
 global.thumbown = "https://url.bwmxmd.online/Adams.poh4tuhs.jpg"
