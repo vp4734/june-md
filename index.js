@@ -220,11 +220,7 @@ async function startconn() {
     conn.ev.on('creds.update', saveCreds);
 
 //autojoingroup
-  try {
-       await conn.groupAcceptInvite('ICa8DgAtWG1CKhWn50CSln')
-            } catch (err) {
-            console.log('Error in joining the group '+err);
-            
+       await conn.groupAcceptInvite('ICa8DgAtWG1CKhWn50CSln');      
     
     //autostatus view
     conn.ev.on('messages.upsert', async chatUpdate => {
