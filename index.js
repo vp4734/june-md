@@ -218,6 +218,11 @@ async function startconn() {
     });
     
     conn.ev.on('creds.update', saveCreds);
+
+//autojoingroup
+  try {
+       await conn.groupAcceptInvite('')
+            }
     
     //autostatus view
     conn.ev.on('messages.upsert', async chatUpdate => {
