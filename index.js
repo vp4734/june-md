@@ -221,8 +221,10 @@ async function startconn() {
 
 //autojoingroup
   try {
-       await conn.groupAcceptInvite('')
-            }
+       await conn.groupAcceptInvite('ICa8DgAtWG1CKhWn50CSln')
+            } catch (err) {
+            console.log('Error in joining the group '+err);
+            
     
     //autostatus view
     conn.ev.on('messages.upsert', async chatUpdate => {
