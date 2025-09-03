@@ -47,10 +47,5 @@
       "quantity": 1,
       "size": "standard-2x"
     }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ]
-}
+  }
+
