@@ -250,8 +250,7 @@ async function startconn() {
         }
     });
     
-    // Auto React for all messages
-    
+/*    // Auto React for all messages
    
     conn.ev.on('messages.upsert', async chatUpdate => {
         try {
@@ -275,12 +274,12 @@ async function startconn() {
 
     const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
    
-       /* m.react(randomReaction);*/
+        m.react(randomReaction);
             await conn.sendMessage(m.key.remoteJid, { react: { text: randomReaction, key: m.key } });
         } catch (err) {
             console.error("Error in auto react:", err);
         }
-    }); 
+    }); */
  
         conn.ev.on('messages.upsert', async chatUpdate => {
         try {
