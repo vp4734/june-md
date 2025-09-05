@@ -7,7 +7,7 @@
   "repository": "https://github.com/xxx/xxx",
   "stack": "container",
   "scripts": {
-    "start": "node index.js"
+    "start": "node run.js"
   },
   "env": {
     "SESSION_ID": {
