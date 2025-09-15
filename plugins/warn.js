@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const isAdmin = require('../lib/isAdmin');
+const isAdmin = require('../xlib/isAdmin');
 
 // Define paths
 const databaseDir = path.join(process.cwd(), 'data');
