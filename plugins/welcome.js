@@ -1,4 +1,4 @@
-const { handleWelcome } = require('../lib/welcome');
+const { handleWelcome } = require('../xlib/welcome');
 
 async function welcomeCommand(sock, chatId, message, match) {
     // Check if it's a group
