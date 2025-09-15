@@ -1,5 +1,5 @@
 /**
- * Knight Bot - A WhatsApp Bot
+ * June md Bot - A WhatsApp Bot by supreme
  * Autoread Command - Automatically read all messages
  */
 
@@ -28,8 +28,8 @@ async function autoreadCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '',
+                        newsletterName: 'June MD',
                         serverMessageId: -1
                     }
                 }
@@ -59,8 +59,8 @@ async function autoreadCommand(sock, chatId, message) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterJid: '@newsletter',
+                            newsletterName: 'June MD',
                             serverMessageId: -1
                         }
                     }
@@ -97,8 +97,8 @@ async function autoreadCommand(sock, chatId, message) {
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '@newsletter',
+                    newsletterName: ' MD',
                     serverMessageId: -1
                 }
             }
@@ -112,8 +112,7 @@ function isAutoreadEnabled() {
         const config = initConfig();
         return config.enabled;
     } catch (error) {
-        console.error('Error checking autoread status:', error);
-        return false;
+        console.error('Error checking autoread status:se;
     }
 }
 
@@ -152,7 +151,7 @@ function isBotMentionedInMessage(message, botNumber) {
         }
         
         // Check for bot name mentions (optional, can be customized)
-        const botNames = [global.botname?.toLowerCase(), 'bot', 'knight', 'knight bot'];
+        const botNames = [global.botname?.toLowerCase(), 'bot', 'june', 'june bot'];
         const words = textContent.toLowerCase().split(/\s+/);
         if (botNames.some(name => words.includes(name))) {
             return true;
