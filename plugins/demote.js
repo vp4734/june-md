@@ -1,4 +1,4 @@
-const isAdmin = require('../lib/isAdmin');
+const isAdmin = require('../xlib/isAdmin');
 
 async function demoteCommand(sock, chatId, mentionedJids, message) {
     try {
@@ -67,7 +67,7 @@ async function demoteCommand(sock, chatId, mentionedJids, message) {
         // Add delay to avoid rate limiting
         await new Promise(resolve => setTimeout(resolve, 1000));
 
-        const demotionMessage = `*『 GROUP DEMOTION 』*\n\n` +
+        const demotionMessage = `*『 GROUP DEMOTE 』*\n\n` +
             `👤 *Demoted User${userToDemote.length > 1 ? 's' : ''}:*\n` +
             `${usernames.map(name => `• ${name}`).join('\n')}\n\n` +
             `👑 *Demoted By:* @${message.key.participant ? message.key.participant.split('@')[0] : message.key.remoteJid.split('@')[0]}\n\n` +
