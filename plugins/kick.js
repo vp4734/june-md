@@ -1,4 +1,4 @@
-const isAdmin = require('../lib/isAdmin');
+const isAdmin = require('../xlib/isAdmin');
 
 async function kickCommand(sock, chatId, senderId, mentionedJids, message) {
     // Check if user is owner
