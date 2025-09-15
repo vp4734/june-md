@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { channelInfo } = require('../lib/messageConfig');
+const { channelInfo } = require('../xlib/messageConfig');
 
 async function banCommand(sock, chatId, message) {
     let userToBan;
@@ -26,7 +26,7 @@ async function banCommand(sock, chatId, message) {
         const bannedUsers = JSON.parse(fs.readFileSync('./data/banned.json'));
         if (!bannedUsers.includes(userToBan)) {
             bannedUsers.push(userToBan);
-            fs.writeFileSync('./data/banned.json', JSON.stringify(bannedUsers, null, 2));
+            fs.writeFileSync('./data-x/banned.json', JSON.stringify(bannedUsers, null, 2));
             
             await sock.sendMessage(chatId, { 
                 text: `Successfully banned @${userToBan.split('@')[0]}!`,
