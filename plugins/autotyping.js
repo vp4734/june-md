@@ -1,13 +1,13 @@
-/**
- * Knight Bot - A WhatsApp Bot
- * Autotyping Command - Shows fake typing status
+/*
+ ** June md  Bot - A WhatsApp Bot created by supreme
+ ** Autotyping Command - Shows fake typing status
  */
 
 const fs = require('fs');
 const path = require('path');
 
 // Path to store the configuration
-const configPath = path.join(__dirname, '..', 'data', 'autotyping.json');
+const configPath = path.join(__dirname, '..', 'data-x', 'autotyping.json');
 
 // Initialize configuration file if it doesn't exist
 function initConfig() {
@@ -26,10 +26,10 @@ async function autotypingCommand(sock, chatId, message) {
                 text: '❌ This command is only available for the owner!',
                 contextInfo: {
                     forwardingScore: 1,
-                    isForwarded: true,
+                    isForwarded: false,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterJid: '',
+                        newsletterName: 'June MD',
                         serverMessageId: -1
                     }
                 }
@@ -57,10 +57,10 @@ async function autotypingCommand(sock, chatId, message) {
                     text: '❌ Invalid option! Use: .autotyping on/off',
                     contextInfo: {
                         forwardingScore: 1,
-                        isForwarded: true,
+                        isForwarded: false,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363161513685998@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterJid: '@newsletter',
+                            newsletterName: ' MD',
                             serverMessageId: -1
                         }
                     }
@@ -80,10 +80,10 @@ async function autotypingCommand(sock, chatId, message) {
             text: `✅ Auto-typing has been ${config.enabled ? 'enabled' : 'disabled'}!`,
             contextInfo: {
                 forwardingScore: 1,
-                isForwarded: true,
+                isForwarded: false,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: 'l@newsletter',
+                    newsletterName: 'June MD',
                     serverMessageId: -1
                 }
             }
@@ -95,10 +95,10 @@ async function autotypingCommand(sock, chatId, message) {
             text: '❌ Error processing command!',
             contextInfo: {
                 forwardingScore: 1,
-                isForwarded: true,
+                isForwarded: false,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363161513685998@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterJid: '@newsletter',
+                    newsletterName: 'June MD',
                     serverMessageId: -1
                 }
             }
