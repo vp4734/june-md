@@ -1,13 +1,7 @@
-/**
- * Knight Bot - A WhatsApp Bot
- * Copyright (c) 2024 Professor
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the MIT License.
- * 
- * Credits:
- * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by TechGod143 & DGXEON
+/*
+ ** June md Bot - A WhatsApp Bot
+ ** tennor-modz => collab
+ ** supreme => owner
  */
 require('./settings')
 const { Boom } = require('@hapi/boom')
@@ -19,7 +13,7 @@ const axios = require('axios')
 const { handleMessages, handleGroupParticipantUpdate, handleStatus } = require('./main');
 const PhoneNumber = require('awesome-phonenumber')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
-const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./lib/myfunc')
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetch, await, sleep, reSize } = require('./xlib/myfunc')
 const {
     default: makeWASocket,
     useMultiFileAuthState,
@@ -71,7 +65,7 @@ setInterval(() => {
 }, 30_000) // check every 30 seconds
 
 let phoneNumber = "254798570132"
-let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
+let owner = JSON.parse(fs.readFileSync('./data-x/owner.json'))
 
 global.botname = "JUNE BOT"
 global.themeemoji = "•"
@@ -256,14 +250,10 @@ async function startXeonBotInc() {
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || ' BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n  ${chalk.bold.blue(`[ ${global.botname || 'JUNE-MD BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: MR UNIQUE HACKER`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mrunqiuehacker`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: MR UNIQUE HACKER`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
-            console.log(chalk.blue(`Bot Version: ${settings.version}`))
+            console.log(chalk.yellow(`Bot Version: ${settings.version}`))
         }
         if (connection === 'close') {
             const statusCode = lastDisconnect?.error?.output?.statusCode
