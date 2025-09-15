@@ -1,5 +1,5 @@
-const { handleAntiBadwordCommand } = require('../lib/antibadword');
-const isAdminHelper = require('../lib/isAdmin');
+const { handleAntiBadwordCommand } = require('../xlib/antibadword');
+const isAdminHelper = require('../xlib/isAdmin');
 
 async function antibadwordCommand(sock, chatId, message, senderId, isSenderAdmin) {
     try {
