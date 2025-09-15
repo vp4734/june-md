@@ -1,5 +1,5 @@
 const { setAntitag, getAntitag, removeAntitag } = require('../lib/index');
-const isAdmin = require('../lib/isAdmin');
+const isAdmin = require('../xlib/isAdmin');
 
 async function handleAntitagCommand(sock, chatId, userMessage, senderId, isSenderAdmin, message) {
     try {
