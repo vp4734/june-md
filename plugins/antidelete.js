@@ -5,7 +5,7 @@ const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
 const { writeFile } = require('fs/promises');
 
 const messageStore = new Map();
-const CONFIG_PATH = path.join(__dirname, '../data/antidelete.json');
+const CONFIG_PATH = path.join(__dirname, '../data-x/antidelete.json');
 const TEMP_MEDIA_DIR = path.join(__dirname, '../tmp');
 
 // Ensure tmp dir exists
@@ -176,7 +176,7 @@ async function handleMessageRevocation(sock, revocationMessage) {
             day: '2-digit', month: '2-digit', year: 'numeric'
         });
 
-        let text = `*🔰 ANTIDELETE REPORT 🔰*\n\n` +
+        let text = `*ANTIDELETE NOTE*\n\n` +
             `*🗑️ Deleted By:* @${deletedBy.split('@')[0]}\n` +
             `*👤 Sender:* @${senderName}\n` +
             `*📱 Number:* ${sender}\n` +
