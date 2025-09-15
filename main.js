@@ -1,8 +1,8 @@
 const settings = require('./settings');
 require('./config.js');
-const { isBanned } = require('./lib/isBanned');
+const { isBanned } = require('./xlib/isBanned');
 const yts = require('yt-search');
-const { fetchBuffer } = require('./lib/myfunc');
+const { fetchBuffer } = require('./xlib/myfunc');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const ytdl = require('ytdl-core');
