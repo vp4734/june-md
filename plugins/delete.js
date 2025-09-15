@@ -1,5 +1,5 @@
-const isAdmin = require('../lib/isAdmin');
-const store = require('../lib/lightweight_store');
+const isAdmin = require('../xlib/isAdmin');
+const store = require('../xlib/lightweight_store');
 
 async function deleteCommand(sock, chatId, message, senderId) {
     try {
