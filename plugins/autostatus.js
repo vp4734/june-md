@@ -4,17 +4,17 @@ const path = require('path');
 const channelInfo = {
     contextInfo: {
         forwardingScore: 1,
-        isForwarded: true,
+        isForwarded: false,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363161513685998@newsletter',
-            newsletterName: 'KnightBot MD',
+            newsletterJid: '',
+            newsletterName: 'June MD',
             serverMessageId: -1
         }
     }
 };
 
 // Path to store auto status configuration
-const configPath = path.join(__dirname, '../data/autoStatus.json');
+const configPath = path.join(__dirname, '../data-x/autoStatus.json');
 
 // Initialize config file if it doesn't exist
 if (!fs.existsSync(configPath)) {
@@ -81,7 +81,7 @@ async function autoStatusCommand(sock, chatId, msg, args) {
                 config.reactOn = true;
                 fs.writeFileSync(configPath, JSON.stringify(config));
                 await sock.sendMessage(chatId, { 
-                    text: '💫 Status reactions have been enabled!\nBot will now react to status updates.',
+                    text: '🥳 Status reactions have been enabled!\nBot will now react to status updates.',
                     ...channelInfo
                 });
             } else if (reactCommand === 'off') {
@@ -153,7 +153,7 @@ async function reactToStatus(sock, statusKey) {
                         participant: statusKey.participant || statusKey.remoteJid,
                         fromMe: false
                     },
-                    text: '💚'
+                    text: '💙'
                 }
             },
             {
