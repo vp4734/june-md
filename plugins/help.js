@@ -29,7 +29,7 @@ async function helpCommand(sock, chatId, message) {
         const uptimeInSeconds = process.uptime();
         const uptimeFormatted = formatTime(uptimeInSeconds);
     const helpMessage = `
-┏❐  \`🌌𝙹𝚄𝙽𝙴-𝙼𝙳🌌\` ❐
+┏❐  \`🌌 𝙹𝚄𝙽𝙴-𝙼𝙳 🌌\` ❐
 ┃▢  *Owner:* ${settings.botOwner}
 ┃▢  *Uptime:* ${uptimeFormatted}
 ┃▢  *Speed:* ${ping} ms
@@ -194,7 +194,7 @@ async function helpCommand(sock, chatId, message) {
 \`by supreme\`
 `;
     try {
-        const imagePath = path.join(__dirname, '../assets/menu.jpg');
+        const imagePath = path.join(__dirname, '../images/menu.jpg');
         
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
