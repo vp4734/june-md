@@ -9,12 +9,12 @@ const ytdl = require('ytdl-core');
 const path = require('path');
 const axios = require('axios');
 const ffmpeg = require('fluent-ffmpeg');
-const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn, isSudo } = require('./lib/index');
+const { addWelcome, delWelcome, isWelcomeOn, addGoodbye, delGoodBye, isGoodByeOn, isSudo } = require('./xlib/index');
 const { autotypingCommand, isAutotypingEnabled, handleAutotypingForMessage, handleAutotypingForCommand, showTypingAfterCommand } = require('./plugins/autotyping');
 const { autoreadCommand, isAutoreadEnabled, handleAutoread } = require('./plugins/autoread');
 
 // Command imports
-const tagAllCommand = require('./plugind/tagall');
+const tagAllCommand = require('./plugins/tagall');
 const helpCommand = require('./plugins/help');
 const banCommand = require('./plugins/ban');
 const { promoteCommand } = require('./plugins/promote');
