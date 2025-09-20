@@ -40,7 +40,7 @@ const { rmSync, existsSync } = require('fs')
 const { join } = require('path')
 
 // Import lightweight store
-const store = require('./lib/lightweight_store')
+const store = require('./xlib/lightweight_store')
 
 // Initialize store
 store.readFromFile()
