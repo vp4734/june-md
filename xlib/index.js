@@ -4,7 +4,7 @@ const path = require('path');
 // Function to load user and group data from JSON file
 function loadUserGroupData() {
     try {
-        const dataPath = path.join(__dirname, '../data/userGroupData.json');
+        const dataPath = path.join(__dirname, '../xdata/userGroupData.json');
         if (!fs.existsSync(dataPath)) {
             // Create the file with default structure if it doesn't exist
             const defaultData = {
