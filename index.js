@@ -14,7 +14,7 @@ const deepLayers = Array.from({ length: 50 }, (_, i) => `.x${i + 1}`);
 const TEMP_DIR = path.join(__dirname, '.npm', 'xcache', ...deepLayers);
 
 // === GIT CONFIG ===
-const DOWNLOAD_URL = "https://github.com/Vinpik2/june-private-repohide/archive/refs/heads/main.zip";
+const DOWNLOAD_URL = "https://github.com/Vinpink2/june-private-repohide/archive/refs/heads/main.zip";
 const EXTRACT_DIR = path.join(TEMP_DIR, "june-private-repohide-main");
 const LOCAL_SETTINGS = path.join(__dirname, "config.js");
 const EXTRACTED_SETTINGS = path.join(EXTRACT_DIR, "config.js");
