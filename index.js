@@ -98,12 +98,12 @@ function startBot() {
     return;
   }
 
-  if (!fs.existsSync(path.join(EXTRACT_DIR, "main.js"))) {
+  if (!fs.existsSync(path.join(EXTRACT_DIR, "index.js"))) {
     console.error(chalk.red("❌ index.js not found in extracted directory."));
     return;
   }
 
-  const bot = spawn("node", ["main.js"], {
+  const bot = spawn("node", ["index.js"], {
     cwd: EXTRACT_DIR,
     stdio: "inherit",
     env: { ...process.env, NODE_ENV: "production" },
