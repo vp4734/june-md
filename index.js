@@ -1,3 +1,7 @@
+/*june md Bot*/
+/*tennor-modes = frends//collab*/
+/*supreme => owner*/
+
 import fs from "fs";
 import path from "path";
 import axios from "axios";
