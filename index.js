@@ -3,10 +3,7 @@
 * tenor-modz => frend//Collab 
 * ©2025
 */
-
-
-
-
+/*enc by tennor-modz*/
 
 
 
