@@ -4,7 +4,7 @@
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+        "start": "node index.js",
     "start:optimized": "node --max-old-space-size=512 --optimize-for-size --gc-interval=100 index.js",
     "cleanup": "node cleanup.js",
     "reset-session": "node reset-session.js",
@@ -13,7 +13,7 @@
     "install:panel": "npm install --legacy-peer-deps",
     "install:force": "npm install --force",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID knightbot"
+    "docker:build": "docker build -t docker run -e SESSION_ID=$SESSION_ID June-md"
   },
   "keywords": [
     "whatsapp-bot"
