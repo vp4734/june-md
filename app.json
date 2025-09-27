@@ -1,13 +1,13 @@
 {
-  "name": "dave md",
+  "name": "june md",
   "description": "A WhatsApp bot based on Baileysjs library (Ts+Js) with Multi Device support",
-  "repository": "https://github.com/giftdee/DAVE-MD",
+  "repository": "",
   "logo": "https://files.catbox.moe/u1hquf.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": {
     "OWNER_NAME": {
       "description": "enter your owner name here",
-      "value": "Dave",
+      "value": "supreme",
       "required": true
     },
     "BOT_PREFIX": {
@@ -21,7 +21,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Put your session ID here(should start with dave~)",
+      "description": "Put your session ID here(should start with JUNE-MD:~)",
       "value": "",
       "required": true
     }
