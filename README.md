@@ -39,7 +39,7 @@ _Deploy the bot and easily connect it to your WhatsApp account by pair code. Bel
 
 > *get session_id*
 <div align="left">
-  <a href="https://session-june-48eaa29bae6d.herokuapp.com/" target="_blank">
+  <a href="https://newsessionpair-17908545c315.herokuapp.com/" target="_blank">
     <img src="https://img.shields.io/badge/Pair%20Code%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
@@ -59,7 +59,7 @@ _Download Bot Zip file From the button Bellow_
 _For further setup & guidance, click the button below🩹_
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Watch+The+Deployment+Tutorials;Bellow+For+FreePanel+Deployments)](https://git.io/typing-svg)
 
-> **heroku deployment freezed**
+> **HEROKU DEPLOYMENT**
 
 <h4 align="left">1. Heroku</h4>
 <p style="text-align: center; font-size: 1.2em;">
