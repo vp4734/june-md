@@ -1,4 +1,4 @@
-# 🌌JUNE MD
+## 🌌JUNE MD
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
@@ -14,7 +14,7 @@
 
 ---
 
-### 1:  *DEPLOYMENT*
+ 1:  DEPLOYMENT
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Tap+fork+button+Bellow+To+Fork;June+MD+REPO+On+Github)](https://git.io/typing-svg)
 <div align="center">
@@ -22,6 +22,8 @@
     <img src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue" alt="FORK REPO"/>
   </a>
 </div>
+
+ 2. PAIR SESSION_ID
 
 <div align="center">
   <a href="https://sessions-june2.onrender.com" target="_blank">
@@ -35,28 +37,33 @@
   </a>
 </div>
 
-### 3:  *DOWNLOAD BOT ZIP*
-<p align="left">
+ 3.  DOWNLOAD BOT ZIP
+<p align="center">
     <a href="https://codeload.github.com/vinpink2/JUNE-MD/zip/refs/heads/main" target="_blank">
-        <img alt="Download zip" src="https://img.shields.io/badge/Download Zip-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=purple"/>
+        <img alt="Download zip" src="https://img.shields.io/badge/JUNE ZIP-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=purple"/>
     </a>
 </p>
 
-### 4:  *Deploy Now*
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Watch+The+Deployment+Tutorials;Bellow+For+FreePanel+Deployments)](https://git.io/typing-svg)
+ 4.  DEPLOY NOW
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=The+bot+supports+deployment;on+all+Free+Panels+easily)](https://git.io/typing-svg)
 
  *HEROKU DEPLOYMENT*
 <h4 align="center">1. Heroku</h4>
-<p style="text-align: center; font-size: 1.2em;">
-  
-<p align="left">
+<p style="text-align: center; font-size: 1.2em;">  
+<p align="center">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
-
->  **JOIN US**
-<div align="left">
+> June md supports deployment on all panels i.e,
+ - Bothosting.
+ - Katabump.
+ - Solarhosting.
+ - Optiklink.
+ - Daki.cc.
+  
+ 5.  JOIN HERE.
+<div align="center">
   <a href="https://t.me/cypherx_support">
-    <img src="https://img.shields.io/badge/Join%20Telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
+    <img src="https://img.shields.io/badge/Join%20telegram-0078E7?style=for-the-badge&logo=telegram&logoColor=darkblue" alt="Join Telegram"/>
   </a>
 <br>
   <a href="https://chat.whatsapp.com/LYMEdDXJNkPDQ5tdTVyh5I?mode=ac_t">
