@@ -35,10 +35,10 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
-  "formation": {
-    "web": {
+   "formation": {
+    "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "standard-2x"
     }
   }
 }
