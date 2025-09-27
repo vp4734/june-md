@@ -1,0 +1,44 @@
+{
+  "name": "JUNE-MD",
+  "description": "WhatsApp Bot Using Baileys Library",
+  "repository": "",
+  "stack": "container",
+  "logo": "",
+  "keywords": ["whatsapp-bot", "multi-device", "bot", "whatsapp"],
+  "env": {
+    "OWNER_Number": {
+      "description": "one or two owner number split with qoma",
+      "required": true,
+      "value": ""
+    },
+    "BOT_NUMBER": {
+      "description": "WhatsApp phone number",
+      "required": true,
+      "value": "254748840328"
+    },
+    "PREFIX": {
+      "description": "put desired prefix",
+      "required": true,
+      "value": ""
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
