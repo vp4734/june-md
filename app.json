@@ -15,11 +15,6 @@
       "value": ".",
       "required": false
     },
-    "AUTO_STATUS": {
-      "description": "Type true if you want bot to view status else false",
-      "value": "true",
-      "required": false
-    },
     "SESSION_ID": {
       "description": "Put your session ID here(should start with JUNE-MD:~)",
       "value": "",
