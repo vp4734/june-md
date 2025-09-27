@@ -15,16 +15,14 @@
 ---
 
  1:  DEPLOYMENT
-
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Tap+fork+button+Bellow+To+Fork;June+MD+REPO+On+Github)](https://git.io/typing-svg)
 <div align="center">
   <a href="https://github.com/vinpink2/June-md/fork">
-    <img src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue" alt="FORK REPO"/>
+    <img src="https://img.shields.io/badge/Fork%20The%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue" alt="FORK REPO"/>
   </a>
 </div>
 
  2. PAIR SESSION_ID
-
 <div align="center">
   <a href="https://sessions-june2.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/Pair%20Code%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="PAIR CODE"/>
@@ -40,25 +38,25 @@
  3.  DOWNLOAD BOT ZIP
 <p align="center">
     <a href="https://codeload.github.com/vinpink2/JUNE-MD/zip/refs/heads/main" target="_blank">
-        <img alt="Download zip" src="https://img.shields.io/badge/JUNE ZIP-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=purple"/>
+        <img alt="Download zip" src="https://img.shields.io/badge/JUNE MD ZIP-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=purple"/>
     </a>
 </p>
 
  4.  DEPLOY NOW
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=The+bot+supports+deployment;on+all+Free+Panels+easily)](https://git.io/typing-svg)
 
- *HEROKU DEPLOYMENT*
-<h4 align="center">1. Heroku</h4>
+ 1.  HEROKU
 <p style="text-align: center; font-size: 1.2em;">  
 <p align="center">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
-> June md supports deployment on all panels i.e,
- - Bothosting.
- - Katabump.
- - Solarhosting.
- - Optiklink.
- - Daki.cc.
+> June md supports deployment on all panels & heroku platformi.e,
+- 1.  Heroku.
+- 2.  Bothosting.
+- 3.  Katabump.
+- 4.  Solarhosting.
+- 5.  Optiklink.
+- 6.  Daki.cc.
   
  5.  JOIN HERE.
 <div align="center">
