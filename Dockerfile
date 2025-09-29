@@ -1,25 +1,23 @@
-FROM node:lts
+# Use a Node.js 18 image, matching the engine specified in your package.json
+FROM node:18-slim
 
-# Install dependencies
-RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg imagemagick webp && apt-get clean
+# Set the working directory inside the container
+WORKDIR /usr/src/app
 
-# Set working directory
-WORKDIR /app
-
-# Copy package files
+# Copy package.json and package-lock.json (if present) to the container
+# This is a key optimization step: install dependencies first.
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install && npm cache clean --force
+# Using --omit=dev prevents installing dev dependencies like 'nodemon'
+RUN npm install --omit=dev
 
-# Copy application code
+# Copy the rest of your application code to the container
 COPY . .
 
-# Expose port
+# Expose the default port (Heroku handles the rest)
 EXPOSE 3000
 
-# Set environment
-ENV NODE_ENV production
-
-# Run command
-CMD ["npm", "run", "start"]
+# Specify the command to run the application
+# This uses the 'start' script defined in your package.json: "node index.js"
+CMD [ "npm", "start" ]
