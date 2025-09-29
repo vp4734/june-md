@@ -4,26 +4,30 @@
   "repository": "https://github.com/Vinpink2/june-md",
   "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "stack": "heroku-22",
   "env": {
     "OWNER_NAME": {
-      "description": "enter your owner name here",
+      "description": "Enter your owner name here.",
       "value": "supreme",
       "required": true
     },
     "BOT_PREFIX": {
-      "description": "Put your bot prefix of desire here",
+      "description": "Put your bot prefix of desire here (e.g., .)",
       "value": ".",
       "required": false
     },
     "SESSION_ID": {
-      "description": "Put your session ID here(should start with JUNE-MD:~)",
+      "description": "Put your session ID here (should start with JUNE-MD:~)",
       "value": "",
-      "required": true
+      "required": false
     }
   },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
@@ -40,7 +44,7 @@
   },
   "addons": [
     {
-      "plan": "heroku-postgresql:essential-0"
+      "plan": "heroku-postgresql:mini"
     }
   ]
 }
