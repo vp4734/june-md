@@ -1,9 +1,0 @@
-# heroku.yml (CORRECTED)
-build:
-  docker:
-    # Use 'worker' to match your app.json formation and the bot's function
-    worker: Dockerfile 
-
-run:
-  # Define the run command for the 'worker' process
-  worker: npm start
