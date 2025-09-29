@@ -30,7 +30,7 @@
 </div>
 
 <div align="center">
-  <a href="https://newsessionpair-17908545c315.herokuapp.com/" target="_blank">
+  <a href="https://session-2s-dfa3baea9dc1.herokuapp.com/pair" target="_blank">
     <img src="https://img.shields.io/badge/Pair%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
