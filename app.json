@@ -4,7 +4,6 @@
   "repository": "https://github.com/Vinpink2/june-md",
   "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "stack": "container",
   "env": {
     "OWNER_NAME": {
       "description": "Enter your owner name here.",
@@ -27,13 +26,13 @@
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
-    },
-    {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
     }
   ],
   "formation": {
