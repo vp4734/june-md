@@ -29,7 +29,6 @@
       "description": "Free PostgreSQL database for storing bot data."
     }
   ],
-
   "buildpacks": [
     {
       "url": "heroku/nodejs",
@@ -43,5 +42,11 @@
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest",
       "description": "FFmpeg for audio/video processing."
     }
-  ]
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
 }
