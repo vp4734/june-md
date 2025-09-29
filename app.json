@@ -4,7 +4,7 @@
   "repository": "https://github.com/Vinpink2/june-md",
   "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "stack": "heroku-22",
+  "stack": "container",
   "env": {
     "OWNER_NAME": {
       "description": "Enter your owner name here.",
