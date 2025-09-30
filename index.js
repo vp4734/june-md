@@ -1,4 +1,4 @@
-//protected by Caseyrhodes XMD 🎀 bitches
+/*protected by Caseyrhodes XMD 🎀 bitches*/
 
 
 
