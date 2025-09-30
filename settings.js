@@ -1,3 +1,7 @@
+// Session Configuration
+global.sessionId = process.env.SESSION_ID || "Caseyrhodes~YOUR_SESSION_ID_HERE"; // Replace with your session ID
+global.sessionPath = './sessions'; // Path where session files will be stored
+global.sessionType = 'multi-file'; // 'multi-file' or 'single-file
 const settings = {
   packname: 'JINX-XMD',
   author: '‎',
