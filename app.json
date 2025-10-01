@@ -1,7 +1,7 @@
 {
   "name": "June-md",
   "description": "June-md, your friendly assistant!",
-  "logo": "https://i.ibb.co/nqsRcKDB/Xploader4.jpg",
+  "logo": "",
   "keywords": [],
   "repository": "",
   "stack": "container",
@@ -16,7 +16,7 @@
 "env": {
   "SESSION_ID": {
     "description": "Must begin with 'JUNE-MD:~'.",
-    "value": "",
+    "value": "true",
     "required": false
   }
 },
