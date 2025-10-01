@@ -10,7 +10,7 @@
     "OWNER_NAME": {
       "description": "Enter your owner name here.",
       "value": "supreme",
-      "required": true
+      "required": false
     },
     "BOT_PREFIX": {
       "description": "Put your bot prefix of desire here (e.g., .)",
@@ -20,7 +20,7 @@
     "SESSION_ID": {
       "description": "Put your session ID here (should start with JUNE-MD:~)",
       "value": "",
-      "required": false
+      "required": true
     }
   },
   "addons": [
