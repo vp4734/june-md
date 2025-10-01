@@ -16,8 +16,8 @@
 "env": {
   "SESSION_ID": {
     "description": "Must begin with 'JUNE-MD:~'.",
-    "value": "true",
-    "required": false
+    "value": "",
+    "required": true
   }
 },
   "buildpacks": [
