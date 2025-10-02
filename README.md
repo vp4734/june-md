@@ -2,7 +2,7 @@
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=JUNE-OFFICIAL;Multi+Device+Whatsapp+Bot;Made+By+Supreme" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Rockwell&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=June-Official;Multi+Device+Whatsapp+Bot;Made+by+supreme" alt="Typing SVG" />
   </a> 
 </div> 
 
@@ -50,13 +50,13 @@
 <p align="center">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
-> June md supports deployment on all panels & heroku platformi.e,
+> .June md supports deployment on all panels & heroku platform i.e,
 - 1.  Heroku.
 - 2.  Bothosting.
 - 3.  Katabump.
-- 4.  Solarhosting.
-- 5.  Optiklink.
-- 6.  Daki.cc.
+- 4.  Solarhosting.net.
+- 5.  Optiklink
+- 6.  Daki.cc
   
  5.  JOIN HERE.
 <div align="center">
