@@ -23,19 +23,15 @@
 </div>
 
  2. PAIR SESSION_ID
-<div align="center">
-  <a href="https://sessions-june2.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/Pair%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkgreen" alt="PAIR CODE"/>
-  </a>
-</div>
 
 <div align="center">
   <a href="https://session-2s-dfa3baea9dc1.herokuapp.com/pair" target="_blank">
-    <img src="https://img.shields.io/badge/Pair%20Server2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
+    <img src="https://img.shields.io/badge/Pair%20Server1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
   </a>
 </div>
 
  3.  DOWNLOAD BOT ZIP
+    
 <p align="center">
     <a href="https://codeload.github.com/vinpink2/JUNE-MD/zip/refs/heads/main" target="_blank">
         <img alt="Download zip" src="https://img.shields.io/badge/JUNE MD ZIP-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkorange&color=purple"/>
@@ -46,6 +42,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=The+bot+supports+deployment;on+all+Free+Panels+easily)](https://git.io/typing-svg)
 
  1.  HEROKU
+
 <p style="text-align: center; font-size: 1.2em;">  
 <p align="center">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/Vinpink2/JUNE-MD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
