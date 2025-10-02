@@ -1,9 +1,9 @@
 {
   "name": "June-md",
   "description": "June-md, your friendly assistant!",
-  "logo": "",
+  "logo": "https://h.uguu.se/GiYWpWoC.jpg",
   "keywords": [],
-  "repository": "",
+  "repository": "https://github.com/Vinpink2/june-md",
   "stack": "container",
   "addons": [
     {
