@@ -1,10 +1,4 @@
-/*PUT YOUR SESSION_ID IN BETWEEN*/
-/*THE QUOTATION("") MARKS IN THE BELLOW*/
-/*FUNCTION*/
 
-/*put session here*/
-process.env.SESSION_ID = ""
-/*the end of session id part*/
 
 
 
