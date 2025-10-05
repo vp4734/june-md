@@ -34,6 +34,13 @@
   </a>
 </div>
 
+
+<div align="center">
+  <a href="https://june-mdsession-id-da9d59bd5dba.herokuapp.com/" target="_blank">
+    <img src="https://img.shields.io/badge/June%20Session%20pair-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkred" alt="PAIR"/>
+  </a>
+</div>
+
 DEPLOY NOW
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=The+bot+supports+deployment;on+all+Free+Panels+easily)](https://git.io/typing-svg)
 
