@@ -28,15 +28,9 @@
 </p>
 
 3. SESSION SITE
-<div align="center">
-  <a href="https://june-mdsession-id-da9d59bd5dba.herokuapp.com/" target="_blank">
-    <img src="https://img.shields.io/badge/June%20Session%20site-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkorange" alt="PAIR"/>
-  </a>
-</div>
-
 
 <div align="center">
-  <a href="https://session-2s-dfa3baea9dc1.herokuapp.com/pair" target="_blank">
+  <a href="https://junesession-3843c7507ad7.herokuapp.com/" target="_blank">
     <img src="https://img.shields.io/badge/June%20Session%20pair-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkred" alt="PAIR"/>
   </a>
 </div>
