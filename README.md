@@ -30,7 +30,7 @@
 3. SESSION SITE
 
 <div align="center">
-  <a href="https://cryptic-basin-16573-97e664405d30.herokuapp.com/" target="_blank">
+  <a href="https://june-pair-2b16a3304adf.herokuapp.com/" target="_blank">
     <img src="https://img.shields.io/badge/June%20Session%20pair-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkred" alt="PAIR"/>
   </a>
 </div>
